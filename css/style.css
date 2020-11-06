@@ -1242,6 +1242,38 @@ a {
   color: #fff;
 }
 
+.modalEnter .error {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 200px;
+  color: red;
+}
+
+.modalEnter .modalEmail__box {
+  width: 40%;
+  position: relative;
+  margin: 7% auto;
+  padding: 25px 30px 25px 35px;
+  background: #fff;
+  background: -o-linear-gradient(#fff, #999);
+}
+
+.modalEnter .modalEmail__box__inside {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+}
+
 .modalEnter .modalE {
   width: 40%;
   position: relative;
@@ -1534,6 +1566,10 @@ a {
     display: none;
   } */
 
+  .modalEnter .modalC {
+    width: 50%;
+  }
+
   .main {
     padding: 0 1%;
   }
@@ -1588,6 +1624,10 @@ a {
 }
 
 @media screen and (max-width: 635px) {
+  .modalEnter .modalC {
+    width: 65%;
+  }
+
   .nav {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
